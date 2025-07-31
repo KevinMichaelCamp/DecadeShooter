@@ -142,6 +142,10 @@ header h1 {
     padding: 0 5em;
 }
 
+.frame-4 {
+    display: flex;
+}
+
 .section-4 .paragraph {
     display: flex;
     flex-direction: column;

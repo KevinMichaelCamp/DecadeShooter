@@ -1,0 +1,169 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+header {
+    background: #2A7B9B;
+    background: linear-gradient(90deg, rgba(42, 123, 155, 1) 0%, rgba(82, 179, 79, 1) 51%, rgba(60, 255, 0, 1) 100%);
+    color: white;
+    min-height: 4em;
+    padding: 0 1em;
+    display: flex;
+    align-items: center;
+    gap: 1em;
+
+}
+
+header img {
+    height: 2.5em;
+    width: 1.25em;
+
+}
+
+.small-caps {
+    font-size: .8em;
+}
+
+.frame-1 {
+    width: 100%;
+    overflow: hidden;
+}
+
+.frame-1 img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.divider {
+    margin: 5em;
+    border: 1pt solid rgb(100, 100, 100);;
+}
+
+.section-1 {
+    color: rgb(100, 100, 100);
+    display: flex;
+    flex-direction: column;
+    gap: 5em;
+    padding: 0 5em;
+}
+
+.section-1 h1 {
+    align-self: flex-end;
+}
+
+.frame-2 {
+    display: flex;
+    gap: 10em;
+}
+
+.bih-frame {
+    border-radius: 1em;
+    height: 20em;
+    width: 25em;
+}
+
+.frame-2 img {
+    border-radius: 2em;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.frame-2 p {
+    font-size: 1.2em;
+    max-width: 30em;
+}
+
+.frame-2 .paragraph {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+.section-2 {
+    color: rgb(100, 100, 100);
+    display: flex;
+    flex-direction: column;
+    gap: 5em;
+    padding: 0 5em;
+}
+
+.italic {
+    font-style: italic;
+}
+
+.frame-3 {
+    display: flex;
+    gap: 10em;
+}
+
+.frame-3 p {
+    font-size: 1.2em;
+    max-width: 30em;
+}
+
+.frame-3 .paragraph {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 2em;
+}
+
+.swing-frame {
+    border-radius: 1em;
+    height: 20em;
+    width: 25em;
+}
+
+.swing-frame img {
+    border-radius: 2em;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.section-3 {
+    color: rgb(100, 100, 100);
+    display: flex;
+    flex-direction: column;
+    gap: 5em;
+    padding: 0 5em;
+}
+
+.section-3 h1 {
+    align-self: center;
+}
+
+.section-3 p {
+    font-size: 1.2em;
+    max-width: 40em;
+    padding: 0 10em;
+}
+
+.section-3 .paragraph {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 2em;
+}
+
+.green {
+    color: green;
+}
+
+.section-4 {
+    color: rgb(100, 100, 100);
+    display: flex;
+    flex-direction: column;
+    gap: 5em;
+    padding: 0 5em;
+}
+
+
+
+

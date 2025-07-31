@@ -4,28 +4,45 @@
     padding: 0;
 }
 
+.divider {
+    margin: 5em;
+    border: 1pt solid rgb(100, 100, 100);;
+}
+
+.green {
+    color: green;
+}
+
+.italic {
+    font-style: italic;
+}
+
+.small-caps {
+    font-size: .8em;
+}
+
+
 
 
 header {
     background: #2A7B9B;
     background: linear-gradient(90deg, rgba(42, 123, 155, 1) 0%, rgba(82, 179, 79, 1) 51%, rgba(60, 255, 0, 1) 100%);
     color: white;
-    min-height: 4em;
-    padding: 0 1em;
+    min-height: 7em;
+    padding: 0 2em;
     display: flex;
     align-items: center;
-    gap: 1em;
-
+    gap: 2em;
 }
 
 header img {
-    height: 2.5em;
-    width: 1.25em;
+    height: 6em;
+    width: 3em;
 
 }
 
-.small-caps {
-    font-size: .8em;
+header h1 {
+    font-size: 4em;
 }
 
 .frame-1 {
@@ -39,12 +56,7 @@ header img {
     object-fit: cover;
 }
 
-.divider {
-    margin: 5em;
-    border: 1pt solid rgb(100, 100, 100);;
-}
-
-.section-1 {
+.section {
     color: rgb(100, 100, 100);
     display: flex;
     flex-direction: column;
@@ -52,8 +64,13 @@ header img {
     padding: 0 5em;
 }
 
+.section h1 {
+    font-size: 2.2em;
+}
+
 .section-1 h1 {
     align-self: flex-end;
+    
 }
 
 .frame-2 {
@@ -61,13 +78,13 @@ header img {
     gap: 10em;
 }
 
-.bih-frame {
+.pic-frame {
     border-radius: 1em;
-    height: 20em;
-    width: 25em;
+    height: 25em;
+    width: 30em;
 }
 
-.frame-2 img {
+.pic-frame img {
     border-radius: 2em;
     height: 100%;
     width: 100%;
@@ -75,7 +92,7 @@ header img {
 }
 
 .frame-2 p {
-    font-size: 1.2em;
+    font-size: 1.5em;
     max-width: 30em;
 }
 
@@ -85,25 +102,13 @@ header img {
     gap: 1em;
 }
 
-.section-2 {
-    color: rgb(100, 100, 100);
-    display: flex;
-    flex-direction: column;
-    gap: 5em;
-    padding: 0 5em;
-}
-
-.italic {
-    font-style: italic;
-}
-
 .frame-3 {
     display: flex;
     gap: 10em;
 }
 
 .frame-3 p {
-    font-size: 1.2em;
+    font-size: 1.5em;
     max-width: 30em;
 }
 
@@ -114,33 +119,12 @@ header img {
     gap: 2em;
 }
 
-.swing-frame {
-    border-radius: 1em;
-    height: 20em;
-    width: 25em;
-}
-
-.swing-frame img {
-    border-radius: 2em;
-    height: 100%;
-    width: 100%;
-    object-fit: cover;
-}
-
-.section-3 {
-    color: rgb(100, 100, 100);
-    display: flex;
-    flex-direction: column;
-    gap: 5em;
-    padding: 0 5em;
-}
-
 .section-3 h1 {
     align-self: center;
 }
 
 .section-3 p {
-    font-size: 1.2em;
+    font-size: 1.5em;
     max-width: 40em;
     padding: 0 10em;
 }
@@ -152,16 +136,16 @@ header img {
     gap: 2em;
 }
 
-.green {
-    color: green;
+.section-4 p {
+    font-size: 1.5em;
+    max-width: 40em;
+    padding: 0 5em;
 }
 
-.section-4 {
-    color: rgb(100, 100, 100);
+.section-4 .paragraph {
     display: flex;
     flex-direction: column;
-    gap: 5em;
-    padding: 0 5em;
+    gap: 1.5em;
 }
 
 

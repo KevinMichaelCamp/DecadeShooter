@@ -27,7 +27,7 @@
 
 
 
-
+/* HEADER | HERO */
 header {
     background: #2A7B9B;
     background: linear-gradient(90deg, rgba(42, 123, 155, 1) 0%, rgba(82, 179, 79, 1) 51%, rgba(60, 255, 0, 1) 100%);
@@ -60,26 +60,41 @@ header h1 {
     object-fit: cover;
 }
 
+/* ALL SECTIONS */
 .section {
     color: rgb(100, 100, 100);
     display: flex;
-    flex-direction: column;
     gap: 5em;
     padding: 0 5em;
 }
 
 .section h1 {
     font-size: 2.2em;
+    padding-bottom: 1em;
+}
+
+.section p {
+    font-size: 1.5em;
+}
+
+/* SECTION 1 */
+.section-1 {
+    display: flex;
+    gap: 10em;
 }
 
 .section-1 h1 {
-    align-self: flex-end;
-    
+    padding-bottom: .5em;
 }
 
-.frame-2 {
+.section-1 p {
+    max-width: 30em;
+}
+
+.section-1 .paragraph {
     display: flex;
-    gap: 10em;
+    flex-direction: column;
+    gap: 1em;
 }
 
 .pic-frame {
@@ -95,28 +110,17 @@ header h1 {
     object-fit: cover;
 }
 
-.frame-2 p {
-    font-size: 1.5em;
-    max-width: 30em;
-}
-
-.frame-2 .paragraph {
-    display: flex;
-    flex-direction: column;
-    gap: 1em;
-}
-
-.frame-3 {
+/* SECTION 2 */
+.section-2 {
     display: flex;
     gap: 10em;
 }
 
-.frame-3 p {
-    font-size: 1.5em;
+.section-2 p {
     max-width: 30em;
 }
 
-.frame-3 .paragraph {
+.section-2 .paragraph {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -128,7 +132,6 @@ header h1 {
 }
 
 .section-3 p {
-    font-size: 1.5em;
     max-width: 40em;
     padding: 0 10em;
 }
@@ -140,15 +143,21 @@ header h1 {
     gap: 2em;
 }
 
+/* SECTION 4 */
+.section-4 {
+    display: flex;
+    justify-content: space-around;
+}
+
 .section-4 p {
-    font-size: 1.5em;
     max-width: 40em;
     padding: 0 5em;
 }
 
-.frame-4 {
-    display: flex;
+.section-4 h1 {
+    padding-left: 5em;
 }
+
 
 .section-4 .paragraph {
     display: flex;
@@ -156,10 +165,19 @@ header h1 {
     gap: 1.5em;
 }
 
+/* SECTION 5 */
 .section-5 {
     display: flex;
     flex-direction: column;
     text-align: center;
+}
+
+.section-5 h1 {
+    font-size: 2.5em;
+}
+
+.section-5 h2 {
+    font-size: 2em;
 }
 
 .nav-section {
@@ -180,7 +198,10 @@ header h1 {
     text-decoration: none
 }
 
+/* section 6 */
 .section-6 {
+    display: flex;
+    flex-direction: column;
     align-items: center;
 }
 
@@ -209,16 +230,26 @@ form button {
     padding: .4em;
 }
 
-footer {
+.social-media {
     background: #2A7B9B;
     background: linear-gradient(90deg, rgba(42, 123, 155, 1) 0%, rgba(82, 179, 79, 1) 51%, rgba(60, 255, 0, 1) 100%);
     color: white;
     min-height: 7em;
     margin: 5em 0;
-    padding: 0 2em;
+    padding: 1em 2em;
     display: flex;
+    justify-content: space-around;
     align-items: center;
     gap: 2em;
+}
+.social-media img {
+    max-width: 5em;
+}
+
+footer p {
+    color: rgb(100, 100, 100);
+    font-size: 1.5em;
+    padding: 2em 5em 5em;
 }
 
 
